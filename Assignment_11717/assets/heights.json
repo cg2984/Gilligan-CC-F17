@@ -1,0 +1,37 @@
+
+//encapsulates everything 
+{
+	//this is an array called "animals", you know bc the square bracket comes after it 
+	"animals":[
+	//element one, it begins with curly bracket, and ends with curly bracket and comma 	
+	{
+	"name":"African elephant",
+	"height":"3"
+	},
+	{
+	"name":"Brown bear",
+	"height":"4"
+	},
+	{
+	"name":"Saltwater crocodile",
+	"height":"6"
+	},
+	{
+	"name":"Giraffe",
+	"height":"6"
+	},
+	{
+	"name":"Lion's Mane Jellyfish",
+	"height":"30"
+	},
+	{
+	"name":"Blue whale",
+	"height":"30"
+	}
+	]
+}
+
+//returns the first object(or element) in the animals array, in this case it is an African Elephans with height of three 
+animals[0] = 
+//returns the first DESCRIPTOR of the object(or element), in this case it is the name of the animal which is African Elephant
+animals[0].name
